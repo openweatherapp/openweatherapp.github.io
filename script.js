@@ -4,7 +4,7 @@ async function getWeather() {
   const weatherResult = document.getElementById("weatherResult");
 
   if (!city) {
-    weatherResult.innerHTML = "<p style='color: red; font-size: 18px;'>Please enter a city name.</p>";
+    weatherResult.innerHTML = "<p style='color: red; font-size: 18px;'>Please Enter a City Name.</p>";
     return;
   }
 

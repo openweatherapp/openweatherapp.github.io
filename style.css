@@ -5,10 +5,11 @@ body {
   align-items: center;
 }
 body h1 {
+  width: 80%;
   color: black;
   font-size: 30px;
   text-align: center;
-  margin: 10px;
+  margin: 10px auto;
   padding: 30px;
   background: skyblue;
   text-shadow: 2px 2px yellow;
@@ -30,7 +31,7 @@ body h2 {
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px #333;
 }
 
 input {
@@ -62,5 +63,5 @@ button:hover {
 }
 footer {
   text-align: center;
-  color: black;
+  color: #333;
 }
